@@ -3,7 +3,7 @@ locals {
   namespace     = "default"
   chart_name    = "kube-prometheus-stack"
   chart_repo    = "https://prometheus-community.github.io/helm-charts"
-  chart_version = "57.1.1"
+  chart_version = "65.5.0"
   name          = "monitoring"
 }
 
